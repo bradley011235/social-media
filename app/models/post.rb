@@ -1,5 +1,5 @@
 class Post < ApplicationRecord
-	validates :content, :length => { :maximum => 140 }
+  validates :content, length: { maximum: 140 }
 
-	belongs_to :user
+  belongs_to :user
 end
